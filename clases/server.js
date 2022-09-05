@@ -43,9 +43,16 @@ var Server = /** @class */ (function () {
     };
     Server.prototype.start = function () {
         var _this = this;
+
+        var port = process.env.PORT || 3000;
+        this.app.listen(port, "0.0.0.0", function() {
+        console.log("Listening on Port 3000");
+        });
+        /*
         this.app.listen(this.port || 3000, function () {
             console.log("SERVIDOR CORRIENDO EN EL PUERTO " + _this.port);
         });
+        */
     };
     return Server;
 }());
