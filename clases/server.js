@@ -43,7 +43,7 @@ var Server = /** @class */ (function () {
     };
     Server.prototype.start = function () {
         var _this = this;
-        this.app.listen(this.port, function () {
+        this.app.listen(this.port || 3000, function () {
             console.log("SERVIDOR CORRIENDO EN EL PUERTO " + _this.port);
         });
     };

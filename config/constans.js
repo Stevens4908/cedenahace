@@ -12,6 +12,7 @@ var nodemailer_1 = __importDefault(require("nodemailer"));
 //   port: 5432,
 //   database: "rdsCedenar",
 // };
+
 exports.globalDataBase = {
     user: "sapdhbtshckgln",
     password: "61478930bc3abbfd21e6911a816e380e9b095a7f10a97f004e4c8de29dd1823d",
@@ -19,6 +20,16 @@ exports.globalDataBase = {
     port: 5432,
     database: "d7lqfrbf33b6ms",
 };
+
+/*
+exports.globalDataBase = {
+    user: "postgres",
+    password: "adworkchain",
+    host: "localhost",
+    port: 5432,
+    database: "api_cedenar",
+};
+*/
 exports.apiPaths = {
     oficina: "/api/oficina",
     area: "/api/area",
