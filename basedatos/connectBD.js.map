@@ -1,0 +1,1 @@
+{"version":3,"file":"connectBD.js","sourceRoot":"","sources":["../../src/basedatos/connectBD.ts"],"names":[],"mappings":";;;AAAA,yBAA0B;AAC1B,+CAAoD;AACvC,QAAA,SAAS,GAAG,IAAI,SAAI,CAAC;IAChC,IAAI,EAAE,yBAAc,CAAC,IAAI;IACzB,QAAQ,EAAE,yBAAc,CAAC,QAAQ;IACjC,IAAI,EAAE,yBAAc,CAAC,IAAI;IACzB,IAAI,EAAE,yBAAc,CAAC,IAAI;IACzB,QAAQ,EAAE,yBAAc,CAAC,QAAQ;CAClC,CAAC,CAAC"}
