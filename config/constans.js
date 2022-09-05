@@ -16,7 +16,7 @@ var nodemailer_1 = __importDefault(require("nodemailer"));
 exports.globalDataBase = {
     user: "sapdhbtshckgln",
     password: "61478930bc3abbfd21e6911a816e380e9b095a7f10a97f004e4c8de29dd1823d",
-    host: "ec2-3-208-79-113.compute-1.amazonaws.com",
+    host: "localhost",
     port: 5432,
     database: "d7lqfrbf33b6ms",
 };
@@ -30,6 +30,7 @@ exports.globalDataBase = {
     database: "api_cedenar",
 };
 */
+
 exports.apiPaths = {
     oficina: "/api/oficina",
     area: "/api/area",
